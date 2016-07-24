@@ -80,7 +80,7 @@ p {
 }
 
 #blog, .about-me {
-  height: 80%;
+  min-height: 80%;
 }
 
 .center-text {
