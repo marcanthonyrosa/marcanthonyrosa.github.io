@@ -45,6 +45,10 @@ body {
   font-weight: bold;
 }
 
+#short-bio a::selection {
+  color: #333;
+}
+
 .social-icon-div {
   padding-top: 20px;
 }
@@ -93,8 +97,10 @@ p {
 
 .footer-social {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 40px;
+  border-top: 1px solid #eee;
+  padding: 20px;
 }
 
 .footer-social a {
