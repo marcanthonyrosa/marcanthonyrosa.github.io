@@ -9,11 +9,27 @@ html, body {
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 ::selection {
   background: #70b5bc;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-toggle {
+  border-color: #70b5bc !important;
+}
+
+.icon-bar {
+  background-color: #70b5bc !important;
+}
+
+.navbar-default a {
+    color: #333 !important;
 }
 
 .glyphicon {
@@ -51,6 +67,7 @@ body {
 
 .social-icon-div {
   padding-top: 20px;
+  color: #70b5bc;
 }
 
 .social-icon-div a {
@@ -59,7 +76,8 @@ body {
 }
 
 .social-icon-div a:hover {
-  color: #70b5bc;
+  /*color: #70b5bc;*/
+  color: #333;
 }
 
 .social-icon-div a:last-of-type {
@@ -69,7 +87,6 @@ body {
 .my-avatar-top {
   max-width: 80px;
   margin: 0 auto 0 auto;
-  margin-bottom: 10px;
 }
 
 .header-copy {
@@ -117,7 +134,7 @@ p {
 @media screen and (min-width: 991px) {
   .page-header {
     /*margin-top: 80px;*/
-    padding: 80px;
+    padding: 40px;
   }
 
   .page-header h1 {
