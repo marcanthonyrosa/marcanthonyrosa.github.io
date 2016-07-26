@@ -18,20 +18,12 @@ body {
 
 /* Navbar and page header */
 
-.navbar-default {
-  background-color: white;
-}
-
 .navbar-toggle {
   border-color: #70b5bc !important;
 }
 
 .icon-bar {
   background-color: #70b5bc !important;
-}
-
-.navbar-default a {
-    color: #333 !important;
 }
 
 .glyphicon {
@@ -82,7 +74,12 @@ mark {
 }
 
 .lead {
+  /*max-width: 65ch;*/
+}
+
+.paragraph-formatting {
   max-width: 65ch;
+  margin: 0 auto;
 }
 
 .social-icon-div {
