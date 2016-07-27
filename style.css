@@ -1,3 +1,5 @@
+/*Page-wide*/
+
 * {
   box-sizing: border-box;
 }
@@ -30,6 +32,11 @@ body {
   font-size: 2.5em;
 }
 
+.my-avatar-top {
+  max-width: 80px;
+  margin: 0 auto 0 auto;
+}
+
 .page-header {
   text-align: center;
   padding: 30px 20px 50px 20px;
@@ -52,35 +59,7 @@ body {
   font-size: 1.4em;
 }
 
-
-/*Bio and lead*/
-
-#short-bio {
-  /*background-color: #f5f5f5;*/
-  margin-top: 10px;
-}
-
-#short-bio a {
-  color: #333;
-  font-weight: bold;
-}
-
-#short-bio a::selection {
-  color: #333;
-}
-
-mark {
-  background-color: #70b5bc;
-}
-
-.lead {
-  /*max-width: 65ch;*/
-}
-
-.paragraph-formatting {
-  max-width: 65ch;
-  margin: 0 auto;
-}
+/*Social icon and avatar styling*/
 
 .social-icon-div {
   padding-top: 20px;
@@ -101,17 +80,29 @@ mark {
   padding-right: 0;
 }
 
-.my-avatar-top {
-  max-width: 80px;
-  margin: 0 auto 0 auto;
+/*Short bio info*/
+
+#short-bio {
+  /*background-color: #f5f5f5;*/
+  margin-top: 10px;
+}
+
+#short-bio a {
+  color: #333;
+  font-weight: bold;
+}
+
+#short-bio a::selection {
+  color: #333;
+}
+
+.paragraph-formatting {
+  max-width: 65ch;
+  margin: 0 auto;
 }
 
 .header-copy {
   text-align: right !important;
-}
-
-p {
-  /*font-size: 1.4em;*/
 }
 
 .container-bio p {
@@ -122,20 +113,35 @@ p {
   min-height: 80%;
 }
 
-.center-text {
+
+/*Featured work*/
+
+#featured-work, #resume {
+  height: 80%;
+}
+
+.featured-work {
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.featured-work-heading {
+  padding-bottom: 40px;
   text-align: center;
 }
 
-.header-padding {
-  padding-bottom: 20px;
+.featured-image {
+  max-width: 180px;
+  margin: 0 auto;
 }
+
+/*Footer */
 
 .footer-social {
   text-align: center;
   margin-top: 10px;
-  margin-bottom: 40px;
   border-top: 1px solid #eee;
-  padding: 20px;
+  padding: 40px 0;
 }
 
 .footer-social a {
@@ -147,8 +153,25 @@ p {
   color: inherit;
 }
 
+/*General styling*/
 
+.center-text {
+  text-align: center;
+}
 
+mark {
+  background-color: #70b5bc;
+}
+
+.header-padding {
+  padding-bottom: 20px;
+}
+
+.resized-arrow {
+  font-size: 0.8em;
+}
+
+/*Media queries*/
 
 @media screen and (min-width: 991px) {
   .page-header {
@@ -169,5 +192,9 @@ p {
 
   .my-avatar-top {
     max-width: 100px;
+  }
+
+  #short-bio {
+    padding: 20px 0;
   }
 }
