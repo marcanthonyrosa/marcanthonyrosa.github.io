@@ -49,7 +49,7 @@ body {
 .page-header h3 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 
@@ -70,7 +70,7 @@ body {
 }
 
 mark {
-  background-color: #89DDE5;
+  background-color: #70b5bc;
 }
 
 .lead {
