@@ -72,7 +72,6 @@ body {
 }
 
 .social-icon-div a:hover {
-  /*color: #70b5bc;*/
   color: #333;
 }
 
@@ -83,8 +82,9 @@ body {
 /*Short bio info*/
 
 #short-bio {
-  /*background-color: #f5f5f5;*/
-  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #f9fdff;
+  padding-bottom: 10px;
 }
 
 #short-bio a {
@@ -103,6 +103,9 @@ body {
 
 .header-copy {
   text-align: right !important;
+}
+
+.container-bio {
 }
 
 .container-bio p {
@@ -139,14 +142,13 @@ body {
 
 .footer-social {
   text-align: center;
-  margin-top: 10px;
   border-top: 1px solid #eee;
   padding: 40px 0;
 }
 
 .footer-social a {
   padding-right: 25px;
-  color: #70b5bc;
+  color: inherit;
 }
 
 .footer-social a:hover {
@@ -169,6 +171,11 @@ mark {
 
 .resized-arrow {
   font-size: 0.8em;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0,0,102,0.1) !important;
 }
 
 /*Media queries*/
@@ -195,6 +202,6 @@ mark {
   }
 
   #short-bio {
-    padding: 20px 0;
+    padding: 30px 0;
   }
 }
