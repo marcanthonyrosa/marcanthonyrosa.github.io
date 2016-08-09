@@ -43,18 +43,23 @@ body {
   font-weight: 300;
 }
 
-.cta-styling {
-  margin-top: -5px;
-  margin-left: 10px;
-  border-color: #EF0C7D;
-  color: #EF0C7D;
-  background-color: white;
+.h3-copy {
+  padding-bottom: 15px;
 }
 
-.cta-styling:hover {
+.cta-styling {
+  /*margin-top: 5px;*/
+  margin-left: 10px;
   background-color:#EF0C7D;
   color: white;
   border-color: white;
+}
+
+.cta-styling:hover {
+  border-color: #EF0C7D;
+  color: #EF0C7D;
+  background-color: white;
+
 
 
 }
