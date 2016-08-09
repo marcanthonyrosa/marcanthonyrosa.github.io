@@ -1,0 +1,98 @@
+body {
+  padding-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.brand-align {
+  float: left;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navbar-brand-text {
+  margin-top: 1px;
+}
+
+.brand-logo {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+/*Jumbotron styling*/
+
+.jumbotron {
+  background-color: #1B9EA4;
+  color: white;
+}
+
+.jumbotron-styling {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+.jumbotron h3 {
+  font-weight: 300;
+}
+
+.cta-styling {
+  margin-top: -5px;
+  margin-left: 10px;
+  border-color: #EF0C7D;
+  color: #EF0C7D;
+  background-color: white;
+}
+
+.cta-styling:hover {
+  background-color:#EF0C7D;
+  color: white;
+  border-color: white;
+
+
+}
+
+/*Body details*/
+
+.first-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.body-details {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.paragraph-formatting {
+
+  max-width: 65ch;
+  margin: 20px auto 60px auto;
+  /*line-height: 1.45em;*/
+}
+
+.lead {
+  text-align: left;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.gray-background {
+  background-color:#f8f8f8;
+}
+
+.header-padding {
+  padding-top: 40px;
+}
