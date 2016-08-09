@@ -24,6 +24,12 @@ body {
 
 .jumbotron {
   background-color: #1B9EA4;
+  background: -webkit-linear-gradient( #157B7F 0%, #1B9EA4 70%, #1B9EA4 70%);
+  background: -moz-linear-gradient( #157B7F 0%, #1B9EA4 70%, #1B9EA4 70%);
+  background: -ms-linear-gradient( #157B7F 0%, #1B9EA4 70%, #1B9EA4 70%);
+  background: -o-linear-gradient( #157B7F 0%, #1B9EA4 70%, #1B9EA4 70%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #157B7F), color-stop(70%, #1B9EA4), color-stop(70%, #1B9EA4));
+  /*background: -webkit-linear-gradient( #0A3D40 0%, #1B9EA4 70%, #1B9EA4 70%);*/
   color: white;
 }
 
