@@ -206,4 +206,8 @@ p {
   .line-height-adjust {
     line-height: 2.2;
   }
+
+  #three-CTAs {
+    padding-bottom: 20px;
+  }
 }
