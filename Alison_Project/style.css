@@ -111,9 +111,13 @@ body {
 }
 
 .body-details {
-  padding-top: 60px;
+  padding-top: 20px;
   text-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
+}
+
+.details-md-4 {
+  margin-bottom: 40px;
 }
 
 .centered-text {
@@ -135,7 +139,7 @@ body {
 }
 
 .header-padding {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .section {
@@ -151,9 +155,13 @@ body {
 }
 
 .bottom-margin {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
+p {
+  max-width: 65ch;
+  margin: 0 auto 20px auto;
+}
 
 
 /*Footer and social links*/
@@ -179,4 +187,23 @@ body {
 .fa-custom-size {
   font-size: 7em;
   color: rgb(27,158,164);
+}
+
+
+
+/*Media queries*/
+
+@media only screen and (max-width: 700px) {
+  h1, h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 65ch;
+    margin: 0 auto 20px auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .line-height-adjust {
+    line-height: 2.2;
+  }
 }
