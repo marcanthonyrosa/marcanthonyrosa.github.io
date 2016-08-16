@@ -108,6 +108,10 @@ body {
 
 /*Short bio info*/
 
+.lead {
+  margin-bottom: 0;
+}
+
 #short-bio {
   /*padding-top: 10px;*/
   /*background-color: #f9fdff;*/
@@ -154,8 +158,8 @@ body {
 }
 
 .about-me-image1 {
-  width: 180px;
-  margin: 30px auto 0 auto;
+  width: 150px;
+  margin: 40px auto 0 auto;
 }
 
 .tweet-styling {
@@ -242,7 +246,13 @@ mark {
 
 /*Media queries*/
 
-@media screen and (min-width: 991px) {
+@media screen and (max-width: 991px) {
+  .about-me-image1 {
+    max-width: 100px;
+  }
+}
+
+@media screen and (min-width: 992px) {
 
   .page-header h1 {
     font-size: 2.5em;
