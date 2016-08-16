@@ -153,6 +153,15 @@ body {
   margin-top: 30px;
 }
 
+.about-me-image1 {
+  width: 180px;
+  margin: 30px auto 0 auto;
+}
+
+.tweet-styling {
+  margin: 0 auto;
+}
+
 
 /*Featured work*/
 
