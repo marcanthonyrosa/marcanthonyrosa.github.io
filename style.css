@@ -154,8 +154,12 @@ body {
 }
 
 .about-me-image1 {
-  width: 150px;
+  width: 180px;
   margin: 30px auto 0 auto;
+}
+
+.tweet-styling {
+  margin: 0 auto;
 }
 
 
