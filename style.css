@@ -11,7 +11,15 @@ html, body {
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  padding-top: 50px;
+  /*padding-top: 50px;*/
+}
+
+.border-top-flourish {
+  border-top: 5px solid #333;
+}
+
+.body-indent {
+  margin-top: 70px;
 }
 
 ::selection {
@@ -39,11 +47,10 @@ body {
 
 .page-header {
   text-align: center;
-  padding: 30px 20px 50px 20px;
+  padding: 30px 20px 30px 20px;
   margin-top: 0;
   margin-bottom: 0;
-  /*border: none;*/
-  /*background-color: #f5f5f5;*/
+  background-color: #f9fdff;
 }
 
 .page-header h1 {
@@ -60,7 +67,23 @@ body {
 }
 
 .navbar {
-  /*height: */
+  background-color: #f9fdff;
+  height: 65px;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar img {
+  width: 35px;
+  float: left;
+}
+
+.navbar p {
+  float: left;
+  padding-left: 10px;
+  position: relative;
+  top: 8px;
+  color: #333;
+  font-size: 1.08em;
 }
 
 /*Social icon and avatar styling*/
@@ -86,13 +109,13 @@ body {
 /*Short bio info*/
 
 #short-bio {
-  padding-top: 10px;
-  background-color: #f9fdff;
+  /*padding-top: 10px;*/
+  /*background-color: #f9fdff;*/
   padding-bottom: 10px;
 }
 
 #short-bio a {
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 #short-bio a::selection {
@@ -101,8 +124,6 @@ body {
 
 #short-bio a:hover {
   text-decoration: none;
-  border-bottom: 3px solid;
-  box-shadow: inset 0 -1px 0;
 }
 
 .paragraph-formatting {
@@ -121,8 +142,15 @@ body {
   margin: 30px 0;
 }
 
-#blog, .about-me {
-  min-height: 80%;
+/*About me page */
+
+.about-me-h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.about-me {
+  margin-top: 30px;
 }
 
 
@@ -188,24 +216,24 @@ mark {
 }
 
 .underline {
-  border-bottom: 3px solid #70b5bc;
+  border-bottom: 3px solid;
   font-weight: 600;
   padding-left: 1px;
   padding-right: 1px;
-  box-shadow: inset 0 -1px 0 #70b5bc;
+  box-shadow: inset 0 -1px 0;
 }
 
 .strong-styling {
   font-weight: 600;
 }
 
+.color-font {
+  /*color: #333;*/
+}
+
 /*Media queries*/
 
 @media screen and (min-width: 991px) {
-  .page-header {
-    /*margin-top: 80px;*/
-    padding: 30px;
-  }
 
   .page-header h1 {
     font-size: 2.5em;
