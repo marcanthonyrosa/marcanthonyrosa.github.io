@@ -131,8 +131,9 @@ body {
 }
 
 .paragraph-formatting {
-  max-width: 65ch;
+  max-width: 60ch;
   margin: 0 auto;
+  line-height: 1.6;
 }
 
 .header-copy {
@@ -163,7 +164,7 @@ body {
 }
 
 .twitterwidget {
-  margin: 10px autog !important;
+  margin: 10px auto !important;
 }
 
 
