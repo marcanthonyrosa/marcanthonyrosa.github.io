@@ -133,7 +133,8 @@ body {
 .paragraph-formatting {
   max-width: 60ch;
   margin: 0 auto;
-  line-height: 1.6;
+  font-weight: 300;
+  /*line-height: 1.6;*/
 }
 
 .header-copy {
