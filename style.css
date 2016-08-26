@@ -251,6 +251,24 @@ mark {
   /*color: #333;*/
 }
 
+/*Portfolio*/
+
+.container-height {
+  height: 80%;
+}
+
+.h2-padding {
+  padding-bottom: 30px;
+}
+
+.gray-gradient {
+  background: -webkit-linear-gradient(top, #f8f8f8 0%, rgba(255,255,255,0) 100%)
+}
+
+.img-max-height {
+  max-height: 400px;
+}
+
 /*Media queries*/
 
 @media screen and (max-width: 991px) {
