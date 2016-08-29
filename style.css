@@ -318,6 +318,20 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   border: 1px solid #ccc;
 }
 
+.float-left {
+  float: left;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-padding {
+  padding: 10px 0;
+}
+
 /*Media queries*/
 
 @media screen and (max-width: 991px) {
