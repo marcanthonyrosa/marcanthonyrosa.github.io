@@ -263,7 +263,7 @@ mark {
 
 .h2-padding {
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .gray-gradient {
@@ -289,6 +289,8 @@ mark {
 
 .center-cta {
   text-align: center;
+  padding: 20px;
+  /*margin: 20px;*/
 }
 
 iframe, #player, .center-align, .ytp-thumbnail-overlay {
@@ -296,7 +298,7 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
 }
 
 #respond, #calendar, #video, #extension {
-  padding: 20px 0 60px 0;
+  padding: 20px 0 20px 0;
 }
 
 #calendar {
