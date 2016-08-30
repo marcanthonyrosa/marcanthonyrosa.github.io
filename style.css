@@ -139,6 +139,7 @@ body {
   margin: 0 auto;
   font-weight: 300;
   /*line-height: 1.6;*/
+  padding: 0 0 20px 0;
 }
 
 .header-copy {
@@ -270,6 +271,11 @@ mark {
   background: -webkit-linear-gradient(top, #f8f8f8 0%, rgba(255,255,255,0) 100%)
 }
 
+.gray-gradient-2 {
+  background: -webkit-linear-gradient(top, #F7FAFC 0%, rgba(255,255,255,0) 100%)
+}
+
+
 .img-max-height {
   max-height: 400px;
   margin: 0 auto;
@@ -332,11 +338,21 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   padding: 10px 0;
 }
 
+.padding-bottom {
+  padding-bottom: 40px;
+}
+
 /*Media queries*/
 
 @media screen and (max-width: 991px) {
   .about-me-image1 {
     max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .remove-on-mobile {
+    display: none;
   }
 }
 
