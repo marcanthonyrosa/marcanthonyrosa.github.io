@@ -139,7 +139,8 @@ body {
   margin: 0 auto;
   font-weight: 300;
   /*line-height: 1.6;*/
-  padding: 0 0 20px 0;
+  /*padding: 0 0 20px 0;*/
+  /*width: 700px;*/
 }
 
 .header-copy {
@@ -156,8 +157,8 @@ body {
 /*About me page */
 
 .about-me-h1 {
-  margin-top: 40px;
-  margin-bottom: 10px;
+  /*margin-top: 40px;*/
+  margin-bottom: 20px;
 }
 
 .about-me {
@@ -166,7 +167,7 @@ body {
 
 .about-me-image1 {
   width: 150px;
-  margin: 40px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 .twitterwidget {
@@ -176,6 +177,11 @@ body {
 .twitter-tweet {
   margin-left: auto;
   margin-right: auto;
+}
+
+.learn-more-button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
 }
 
 
