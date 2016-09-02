@@ -188,12 +188,16 @@ body {
 }
 
 .about-me {
-  margin-top: 30px;
+  margin-top: 45px;
+}
+
+.about-me-bottom {
+  margin-bottom: 40px;
 }
 
 .about-me-image1 {
   width: 150px;
-  margin: 10px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 
 .twitterwidget {
