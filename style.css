@@ -286,7 +286,6 @@ mark {
   background: -webkit-linear-gradient(top, #F7FAFC 0%, rgba(255,255,255,0) 100%)
 }
 
-
 .img-max-height {
   max-height: 400px;
   margin: 0 auto;
@@ -308,6 +307,11 @@ mark {
   text-align: center;
   padding: 20px;
   /*margin: 20px;*/
+}
+
+.portfolio-image1 {
+  /*width: 150px;*/
+  margin: 10px auto 0 auto;
 }
 
 iframe, #player, .center-align, .ytp-thumbnail-overlay {
