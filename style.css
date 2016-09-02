@@ -70,16 +70,9 @@ body {
   font-size: 1.4em;
 }
 
-.navbar {
-  /*background-color: #f9fdff;*/
-  /*height: 60px;*/
-  /*border-bottom: 1px solid #eee;*/
-}
-
 .navbar-brand {
   padding-top: 11px !important;
 }
-
 
 .navbar img {
   width: 30px;
@@ -92,18 +85,9 @@ body {
   margin: 4px 0 0 10px;
 }
 
-/*.navbar p {
-  float: left;
-  padding-left: 10px;
-  position: relative;
-  top: 5px;
-  color: #333;
-  font-size: 1.08em;
-}*/
-
-.navbar p:hover, .navbar:hover {
+/*.navbar p:hover, .navbar:hover {
   color: #70b5bc;
-}
+}*/
 
 /*Social icon and avatar styling*/
 
@@ -153,9 +137,6 @@ body {
   max-width: 60ch;
   margin: 0 auto;
   font-weight: 300;
-  /*line-height: 1.6;*/
-  /*padding: 0 0 20px 0;*/
-  /*width: 700px;*/
 }
 
 .header-copy {
@@ -171,19 +152,13 @@ body {
 
 /*About me page */
 
-.white-container {
-  background-color: white;
-  border: 1px solid #eee;
-}
-
 .blue-container {
   background-color: #f9fdff;
-  /*border: 1px solid #eee;*/
   border-bottom: 1px solid #eee;
 }
 
 .about-me-h1 {
-  /*margin-top: 40px;*/
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
