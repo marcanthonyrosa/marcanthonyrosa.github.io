@@ -312,6 +312,7 @@ mark {
 .portfolio-image1 {
   /*width: 150px;*/
   margin: 10px auto 0 auto;
+  color: #70b5bc;
 }
 
 iframe, #player, .center-align, .ytp-thumbnail-overlay {
@@ -323,8 +324,7 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
 }
 
 #calendar {
-  background-color: #168EEA;
-  color: white;
+  background-color: #E7F3FC;
 }
 
 #portfolio-header {
@@ -355,6 +355,10 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
 
 .padding-bottom {
   padding-bottom: 40px;
+}
+
+.bolder {
+  font-weight:bolder;
 }
 
 /*Media queries*/
