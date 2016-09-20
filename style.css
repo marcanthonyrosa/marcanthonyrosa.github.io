@@ -32,6 +32,10 @@ body {
 
 /* Navbar and page header */
 
+.navbar {
+  margin-bottom: 0 !important;
+}
+
 .navbar-toggle {
   border-color: #70b5bc !important;
 }
