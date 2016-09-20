@@ -287,13 +287,25 @@ mark {
 }
 
 .img-max-height {
-  max-height: 400px;
+  max-height: 325px;
   margin: 0 auto;
 }
 
 .light-blue {
   background-color: #f9fdff;
   border-bottom: 1px solid #eee;
+}
+
+.resume-icon {
+  padding-right: 20px;
+}
+
+.resume-text {
+  margin: 7px 0 0 0;
+}
+
+.well {
+  margin-bottom: 30px;
 }
 
 .border-bottom {
