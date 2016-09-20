@@ -343,6 +343,16 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   background-color: #E7F3FC;
 }
 
+#extension {
+  background: #168eea;
+  background: linear-gradient(to bottom,#1f93eb 0,#168eea 100%);
+  background: -webkit-linear-gradient(top,#1f93eb 0,#168eea 100%);
+  background: -webkit-gradient(linear,left top,left bottom,from(#1f93eb),to(#168eea));
+  border: 1px solid #137dcf;
+  color: white;
+
+}
+
 #portfolio-header {
   min-height: 50%;
 }
