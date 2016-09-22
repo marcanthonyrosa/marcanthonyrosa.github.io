@@ -175,7 +175,7 @@ body {
 }
 
 .about-me-image1 {
-  width: 150px;
+  width: 125px;
   margin: 20px auto 0 auto;
 }
 
@@ -385,6 +385,15 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
 
 .bolder {
   font-weight:bolder;
+}
+
+.resume-bottom {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.resume-top {
+  margin-top: 20px;
 }
 
 /*Media queries*/
