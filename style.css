@@ -154,6 +154,20 @@ body {
   margin: 30px 0;
 }
 
+.home-ctas {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.or-text {
+  /*margin: 0 20px;*/
+  vertical-align: middle;
+}
+
+.or-text-margin {
+  margin: 10px 0 !important;
+}
+
 /*About me page */
 
 .blue-container {
@@ -190,7 +204,6 @@ body {
 
 .learn-more-button {
   padding: 10px 20px;
-  margin-bottom: 20px;
 }
 
 
@@ -321,7 +334,7 @@ mark {
 
 .center-cta {
   text-align: center;
-  padding: 20px;
+  /*padding: 20px;*/
   /*margin: 20px;*/
 }
 
@@ -373,6 +386,8 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .img-padding {
