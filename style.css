@@ -251,10 +251,6 @@ body {
   text-align: center;
 }
 
-mark {
-  background-color: #70b5bc;
-}
-
 .header-padding {
   padding-bottom: 20px;
 }
@@ -409,6 +405,17 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
 
 .resume-top {
   margin-top: 20px;
+}
+
+/*Video and media*/
+
+.bottom-margin {
+  margin-bottom: 40px;
+}
+
+.tmcImage {
+  width: 250px;
+  margin: 20px auto 0 auto;
 }
 
 /*Media queries*/
