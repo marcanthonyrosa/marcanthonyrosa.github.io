@@ -348,12 +348,17 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   margin: 0 auto !important;
 }
 
-#respond, #calendar, #video, #extension {
+#respond, #calendar, #video, #extension, #dose, #blanks {
   padding: 20px 0 20px 0;
 }
 
 #calendar {
   background-color: #E7F3FC;
+}
+
+#blanks {
+  background-color: #E9F9FF;
+  background: -webkit-linear-gradient(top, #E9F9FF 0%, rgba(255,255,255,0) 100%);
 }
 
 #extension {
