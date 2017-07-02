@@ -10,3 +10,5 @@ My website includes:
 * A link to my [Resume](marcanthonyrosa.github.io/resume)
 
 And that's it!
+
+Looking forward to adding more details here!
