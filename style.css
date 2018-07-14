@@ -427,6 +427,11 @@ iframe, #player, .center-align, .ytp-thumbnail-overlay {
   margin: 20px auto 0 auto;
 }
 
+.youtube {
+  max-width: 560;
+  max-height: 315;
+}
+
 /*Media queries*/
 
 @media screen and (max-width: 991px) {
