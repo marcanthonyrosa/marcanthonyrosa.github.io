@@ -4,10 +4,10 @@ This repository is where I store the files used for my public marcanthonyrosa.gi
 
 My website includes:
 
-* An overview [page](marcanthonyrosa.github.io)
-* An about me [page](marcanthonyrosa.github.io/about)
-* A simple portfolio [page](marcanthonyrosa.github.io/portfolio)
-* A link to my [Resume](marcanthonyrosa.github.io/resume)
+* An overview [page](marcrosa.me/)
+* An about me [page](marcrosa.me/about)
+* A simple portfolio [page](marcrosa.me/portfolio)
+* A link to my [Resume](marcrosa.me/resume.pdf)
 
 And that's it!
 
